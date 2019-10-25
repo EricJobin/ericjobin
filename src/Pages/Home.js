@@ -13,13 +13,20 @@ const styles = {
 
 class Home extends Component {
 
+	state = {
+		showaboutme: true,
+		showportfolio: false,
+		showresume: false,
+		showlinks: false,
+		// show: false,
+	};
 
 	render(){
 
 		return(
 			<div style = {styles.backdrop}>
 
-				<AboutMe/>
+				<AboutMe display={this.state.showaboutme} />
 				{/* <Portfolio/> */}
 				{/* <Resume/> */}
 				{/* <Links/> */}
