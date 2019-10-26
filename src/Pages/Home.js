@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import AboutMe from "../Components/AboutMe";
+import Nav from 'react-bootstrap/Nav';
 
 const styles = {
-	backdrop: {
+	navStyle: {
 		// background: "green",
-		// height: "100vh",
+		// height: "6vh",
 		// padding: "0",
 		// margin: "0",
 		  
@@ -30,15 +31,24 @@ class Home extends Component {
 
 	render(){
 
+	
 		return(
 			// <div style = {styles.backdrop}>
 			<div>
-				<ul className="nav nav-tabs">
-					<li className="nav-item" onClick={() => this.tabclick('bio')}>Bio</li> | 
-					<li className="nav-item" onClick={() => this.tabclick('port')}>Portfolio</li> | 
-					<li className="nav-item" onClick={() => this.tabclick('cv')}>Resume</li> | 
-					<li className="nav-item" onClick={() => this.tabclick('link')}>Links</li> | 
-				</ul>
+				<Nav variant="tabs" defaultActiveKey="Bio" style = {styles.navStyle}>
+					<Nav.Item onClick={() => this.tabclick('bio')}>
+						<Nav.Link eventKey="Bio">Bio</Nav.Link>
+					</Nav.Item>
+					<Nav.Item onClick={() => this.tabclick('port')}>
+						<Nav.Link eventKey="Portfolio">Portfolio</Nav.Link>
+					</Nav.Item>
+					<Nav.Item onClick={() => this.tabclick('cv')}>
+						<Nav.Link eventKey="Resume">Resume</Nav.Link>
+					</Nav.Item>
+					<Nav.Item onClick={() => this.tabclick('link')}>
+						<Nav.Link eventKey="Links">Links</Nav.Link>
+					</Nav.Item>
+				</Nav>
 				<AboutMe display={this.state.showaboutme} />
 				{/* <Portfolio/> */}
 				{/* <Resume/> */}

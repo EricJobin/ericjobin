@@ -6,7 +6,7 @@ const styles = {
 	backdrop: {
 		backgroundColor: "red",
 		// backgroundAttachment: "scroll",
-		height: "100vh",
+		minHeight: "94vh",
 		padding: "2%",
 		// margin: "0",
 		  
@@ -14,13 +14,14 @@ const styles = {
 	portrait: {
 		height: "40vh",
 		float: "left",
-		margin: "2%",
+		margin: "0 2% 0 0",
 		// width: "100%",
 	},
 	jumbo: {
 		backgroundColor: "rgba(255,255,255,.6)",
 		padding: "5% 5%",
 		margin: "0",
+		minHeight: "54vh",
 		// position:"realative",
 
 	}
