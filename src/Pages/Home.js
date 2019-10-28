@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import AboutMe from "../Components/AboutMe";
 import Portfolio from "../Components/Portfolio";
+// import Resume from "../Components/Resume";
+// import Links from "../Components/Links";
+import Modal from "../Components/Modal";
 
 import Nav from 'react-bootstrap/Nav';
 
@@ -22,6 +25,8 @@ class Home extends Component {
 		showresume: false,
 		showlinks: false,
 		// show: false,
+		// TEMP
+		showmodal: false,
 	};
 
 	tabclick = (tab)=>{
@@ -29,6 +34,8 @@ class Home extends Component {
 		this.setState({ showportfolio: tab==="port" ? true : false })
 		this.setState({ showresume: tab==="cv" ? true : false })
 		this.setState({ showlinks: tab==="link" ? true : false })
+		// TEMP
+		this.setState({ showlinks: tab==="modal" ? true : false })
 	}
 
 	render(){
@@ -50,11 +57,18 @@ class Home extends Component {
 					<Nav.Item onClick={() => this.tabclick('link')}>
 						<Nav.Link eventKey="Links">Links</Nav.Link>
 					</Nav.Item>
+					{/* TEMP */}
+					<Nav.Item onClick={() => this.tabclick('modal')}>
+						<Nav.Link eventKey="modal">modal</Nav.Link>
+					</Nav.Item>
+					{/* TEMP */}
 				</Nav>
 				<AboutMe display={this.state.showaboutme} />
 				<Portfolio display={this.state.showportfolio}/>
 				{/* <Resume/> */}
 				{/* <Links/> */}
+				{/* TEMP */}
+				<Modal display={this.state.showmodal}/>
 
 			</div>
 		)

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "title": "StayIn",
+        "image": "./images/stayIn640x480.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Emergency Recipe",
+        "image": "./images/emergencyRecipe640x480.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Train Schedule",
+        "image": "./images/trainSchedule640x480.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Trivia Game",
+        "image": "./images/triviaGame640x480.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Word Guess Game",
+        "image": "./images/wordGuessGame640x480.jpg"
+    },
+    {
+        "id": 5,
+        "title": "GitHub",
+        "image": "./images/gitHub640x480.jpg"
+    }
+]
