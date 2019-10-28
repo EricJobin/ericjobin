@@ -6,7 +6,7 @@ const styles = {
 	backdrop: {
 		backgroundColor: "red",
 		// backgroundAttachment: "scroll",
-		minHeight: "94vh",
+		minHeight: "93vh",
 		padding: "2%",
 		// margin: "0",
 		  

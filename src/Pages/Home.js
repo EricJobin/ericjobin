@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import AboutMe from "../Components/AboutMe";
+import Portfolio from "../Components/Portfolio";
+
 import Nav from 'react-bootstrap/Nav';
 
 const styles = {
 	navStyle: {
 		// background: "green",
-		// height: "6vh",
+		// height: "7vh",
 		// padding: "0",
 		// margin: "0",
 		  
@@ -33,7 +35,7 @@ class Home extends Component {
 
 	
 		return(
-			// <div style = {styles.backdrop}>
+			
 			<div>
 				<Nav variant="tabs" defaultActiveKey="Bio" style = {styles.navStyle}>
 					<Nav.Item onClick={() => this.tabclick('bio')}>
@@ -50,7 +52,7 @@ class Home extends Component {
 					</Nav.Item>
 				</Nav>
 				<AboutMe display={this.state.showaboutme} />
-				{/* <Portfolio/> */}
+				<Portfolio display={this.state.showportfolio}/>
 				{/* <Resume/> */}
 				{/* <Links/> */}
 
