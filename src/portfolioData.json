@@ -2,31 +2,43 @@
     {
         "id": 0,
         "title": "StayIn",
-        "image": "./images/stayIn640x480.jpg"
+        "image": "./images/stayIn640x480.jpg",
+        "blurb": "Designed to be the Uber for Personal Chefs, Stay In connects people with personal chefs who will come to your home and cook for you.",
+        "end":""
     },
     {
         "id": 1,
         "title": "Emergency Recipe",
-        "image": "./images/emergencyRecipe640x480.jpg"
+        "image": "./images/emergencyRecipe640x480.jpg",
+        "blurb": "Don't know what to eat? Have groceries you don't know what to do with? This website will scour the internet to find recipe ideas for ingredients you have at hand, and give you the nutritional data to make informed decisions about what to eat.",
+        "end":""
     },
     {
         "id": 2,
         "title": "Train Schedule",
-        "image": "./images/trainSchedule640x480.jpg"
+        "image": "./images/trainSchedule640x480.jpg",
+        "blurb": "This Train Scheduler was created to experiment with the Moment.js library and to have integration with Google Firebase, to maintain persistence across sessions and machines.",
+        "end":""
     },
     {
         "id": 3,
         "title": "Trivia Game",
-        "image": "./images/triviaGame640x480.jpg"
+        "image": "./images/triviaGame640x480.jpg",
+        "blurb": "This Trivia Game was created to become familiar with Javascript timers, and jQuery. The site uses a Bootstrap framework. The quiz focuses on the Mythos stories written by H.P. Lovecraft.",
+        "end":""
     },
     {
         "id": 4,
         "title": "Word Guess Game",
-        "image": "./images/wordGuessGame640x480.jpg"
+        "image": "./images/wordGuessGame640x480.jpg",
+        "blurb": "This Word Guess Game is a hangman style game created to become familiar with Javascript events.",
+        "end":""
     },
     {
         "id": 5,
         "title": "GitHub",
-        "image": "./images/gitHub640x480.jpg"
+        "image": "./images/gitHub640x480.jpg",
+        "blurb": "This is my GitHub repository, where I keep the code I have written in the past, as a reference and as a snapshot of my abilites as a coder and how I've progressed.",
+        "end":""
     }
 ]
