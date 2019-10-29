@@ -25,13 +25,13 @@ const styles = {
 		// margin: "0",
 		  
 	},
-	card: {
-        width: "18rem",
-        marginBottom: "5%",
+	// card: {
+    //     width: "18rem",
+    //     marginBottom: "5%",
 		// float: "left",
 		// margin: "2% 5% 5% 5%",
 		// width: "100%",
-	},
+	// },
 	col: {
 		// backgroundColor: "rgba(255,255,255,.6)",
 		// padding: "0% 2%",

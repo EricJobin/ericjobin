@@ -17,7 +17,7 @@ class ModalExample extends Component {
     render() {
     
         return (
-			<div>
+			<div style={ { display: this.props.display ? '' : 'none' } }>
 				<Button
 					// bsStyle="primary"
 					// bsSize="large"
