@@ -41,10 +41,16 @@ const styles = {
     },
     row: {
 		// backgroundColor: "rgba(255,255,255,.6)",
-		padding: "0",
-		margin: "0",
+		// padding: "0",
+		// margin: "0",
+		// width:"100%"
 		// minHeight: "54vh",
 		// position:"realative",
+	},
+	container: {
+		// padding: "0",
+		// margin: "0",
+		// width:"100%"
 	}
 };
 
@@ -56,7 +62,7 @@ class Portfolio extends Component {
 			<div style={ { display: this.props.display ? '' : 'none' } }>
 
 				<div style = {styles.backdrop}>
-                    <Container>
+                    <Container style={styles.container}>
                         <Row style={styles.row}>
 
                             {cards.map(

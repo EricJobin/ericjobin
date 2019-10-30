@@ -4,6 +4,10 @@
         "title": "StayIn",
         "image": "./images/stayIn640x480.jpg",
         "blurb": "Designed to be the Uber for Personal Chefs, Stay In connects people with personal chefs who will come to your home and cook for you.",
+        "displayLink": "",
+        "projectLink": "https://limitless-ocean-73138.herokuapp.com",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin/HomeChef",
         "end":""
     },
     {
@@ -11,6 +15,10 @@
         "title": "Emergency Recipe",
         "image": "./images/emergencyRecipe640x480.jpg",
         "blurb": "Don't know what to eat? Have groceries you don't know what to do with? This website will scour the internet to find recipe ideas for ingredients you have at hand, and give you the nutritional data to make informed decisions about what to eat.",
+        "displayLink": "",
+        "projectLink": "https://ericjobin.github.io/Emergency-Recipe/",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin/group-project-1",
         "end":""
     },
     {
@@ -18,6 +26,10 @@
         "title": "Train Schedule",
         "image": "./images/trainSchedule640x480.jpg",
         "blurb": "This Train Scheduler was created to experiment with the Moment.js library and to have integration with Google Firebase, to maintain persistence across sessions and machines.",
+        "displayLink": "",
+        "projectLink": "https://ericjobin.github.io/Train-Schedule/",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin/Train-Schedule",
         "end":""
     },
     {
@@ -25,6 +37,10 @@
         "title": "Trivia Game",
         "image": "./images/triviaGame640x480.jpg",
         "blurb": "This Trivia Game was created to become familiar with Javascript timers, and jQuery. The site uses a Bootstrap framework. The quiz focuses on the Mythos stories written by H.P. Lovecraft.",
+        "displayLink": "",
+        "projectLink": "https://ericjobin.github.io/TriviaGame/",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin/TriviaGame",
         "end":""
     },
     {
@@ -32,6 +48,10 @@
         "title": "Word Guess Game",
         "image": "./images/wordGuessGame640x480.jpg",
         "blurb": "This Word Guess Game is a hangman style game created to become familiar with Javascript events.",
+        "displayLink": "",
+        "projectLink": "https://ericjobin.github.io/Word-Guess-Game/",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin/Word-Guess-Game",
         "end":""
     },
     {
@@ -39,6 +59,10 @@
         "title": "GitHub",
         "image": "./images/gitHub640x480.jpg",
         "blurb": "This is my GitHub repository, where I keep the code I have written in the past, as a reference and as a snapshot of my abilites as a coder and how I've progressed.",
+        "displayLink": "none",
+        "projectLink": "",
+        "displayRepo": "",
+        "repoLink": "https://github.com/EricJobin",
         "end":""
     }
 ]

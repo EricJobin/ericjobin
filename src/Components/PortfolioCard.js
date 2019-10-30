@@ -48,7 +48,27 @@ class PortfolioCard extends Component {
 						{this.props.blurb}
 					</Modal.Body>
 					<Modal.Footer>
-						<Button onClick={this.close}>Close</Button>
+						{/* <Button onClick={this.close}>Close</Button> */}
+						{/* <Button style={ { display: this.props.display ? '' : 'none' } }>Vist Repo</Button> */}
+						{/* <Button style={ { display: this.props.display ? '' : 'none' } }>Vist Project</Button> */}
+
+						<a 
+							target="_blank"
+							style={ { display: this.props.displayLink} }
+							href={this.props.projectLink} 
+							className="btn btn-outline-success">
+								Visit Project
+						</a>
+
+						<a 
+							target="_blank"
+							style={ { display: this.props.displayRepo} }
+							href={this.props.repoLink} 
+							className="btn btn-outline-success">
+								Visit Repo
+						</a>
+
+
 					</Modal.Footer>
 				</Modal>
 			</div>
