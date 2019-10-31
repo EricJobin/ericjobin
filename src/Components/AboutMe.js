@@ -4,9 +4,9 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const styles = {
 	backdrop: {
-		backgroundColor: "red",
+		backgroundColor: "rgba(255,0,0,.0",
 		// backgroundAttachment: "scroll",
-		minHeight: "93vh",
+		// minHeight: "93vh",
 		padding: "2%",
 		// margin: "0",
 		  
@@ -18,7 +18,7 @@ const styles = {
 		// width: "100%",
 	},
 	jumbo: {
-		backgroundColor: "rgba(255,255,255,.6)",
+		backgroundColor: "rgba(255,255,255,.8)",
 		padding: "5% 5%",
 		margin: "0",
 		minHeight: "54vh",

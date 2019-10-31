@@ -9,12 +9,16 @@ import Nav from 'react-bootstrap/Nav';
 
 const styles = {
 	navStyle: {
-		// background: "green",
+		// background: "gray",
 		// height: "7vh",
 		// padding: "0",
 		// margin: "0",
-		  
 	},
+	backdrop: {
+		backgroundColor: "rgb(222,222,222)",
+		minHeight: "100vh",
+		// paddingTop: "2%",
+	}
 };
 
 class Home extends Component {
@@ -45,7 +49,7 @@ class Home extends Component {
 	
 		return(
 			
-			<div>
+			<div style = {styles.backdrop}>
 				<Nav variant="tabs" defaultActiveKey="Bio" style = {styles.navStyle}>
 					<Nav.Item onClick={() => this.tabclick('bio')}>
 						<Nav.Link eventKey="Bio">Bio</Nav.Link>

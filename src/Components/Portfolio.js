@@ -19,9 +19,9 @@ import cards from "../portfolioData.json"
 
 const styles = {
 	backdrop: {
-		backgroundColor: "green",
-		minHeight: "94vh",
-		paddingTop: "2%",
+		// backgroundColor: "green",
+		// minHeight: "94vh",
+		paddingTop: "3%",
 		// margin: "0",
 		  
 	},
