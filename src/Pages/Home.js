@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AboutMe from "../Components/AboutMe";
 import Portfolio from "../Components/Portfolio";
-// import Resume from "../Components/Resume";
+import Resume from "../Components/Resume";
 // import Links from "../Components/Links";
 // import Modal from "../Components/Modal";
 
@@ -67,7 +67,7 @@ class Home extends Component {
 				</Nav>
 				<AboutMe display={this.state.showaboutme} />
 				<Portfolio display={this.state.showportfolio}/>
-				{/* <Resume/> */}
+				<Resume display={this.state.showresume}/>
 				{/* <Links/> */}
 				{/* TEMP */}
 				{/* <Modal display={this.state.showmodal}/> */}
