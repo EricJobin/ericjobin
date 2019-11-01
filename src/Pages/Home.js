@@ -2,22 +2,13 @@ import React, { Component } from "react";
 import AboutMe from "../Components/AboutMe";
 import Portfolio from "../Components/Portfolio";
 import Resume from "../Components/Resume";
-// import Links from "../Components/Links";
-// import Modal from "../Components/Modal";
 
 import Nav from 'react-bootstrap/Nav';
 
 const styles = {
-	navStyle: {
-		// background: "gray",
-		// height: "7vh",
-		// padding: "0",
-		// margin: "0",
-	},
 	backdrop: {
-		backgroundColor: "rgb(222,222,222)",
 		minHeight: "100vh",
-		// paddingTop: "2%",
+		backgroundImage: "linear-gradient(to bottom right, #bbbbcc, #eeeeee, #8888aa)",
 	}
 };
 
@@ -27,20 +18,15 @@ class Home extends Component {
 		showaboutme: true,
 		showportfolio: false,
 		showresume: false,
-		showlinks: false,
-		// showmodal: false,
-		// show: false,
-		// TEMP
-		
+		// showlinks: false,
 	};
 
 	tabclick = (tab)=>{
 		this.setState({ showaboutme: tab==="bio" ? true : false })
 		this.setState({ showportfolio: tab==="port" ? true : false })
 		this.setState({ showresume: tab==="cv" ? true : false })
-		this.setState({ showlinks: tab==="link" ? true : false })
-		// TEMP
-		// this.setState({ showmodal: tab==="Modal" ? true : false })
+		// this.setState({ showlinks: tab==="link" ? true : false })
+		
 		console.log(this.state)
 	}
 
@@ -50,7 +36,7 @@ class Home extends Component {
 		return(
 			
 			<div style = {styles.backdrop}>
-				<Nav variant="tabs" defaultActiveKey="Bio" style = {styles.navStyle}>
+				<Nav variant="tabs" defaultActiveKey="Bio">
 					<Nav.Item onClick={() => this.tabclick('bio')}>
 						<Nav.Link eventKey="Bio">Bio</Nav.Link>
 					</Nav.Item>
@@ -60,22 +46,14 @@ class Home extends Component {
 					<Nav.Item onClick={() => this.tabclick('cv')}>
 						<Nav.Link eventKey="Resume">Resume</Nav.Link>
 					</Nav.Item>
-					<Nav.Item onClick={() => this.tabclick('link')}>
+					{/* <Nav.Item onClick={() => this.tabclick('link')}>
 						<Nav.Link eventKey="Links">Links</Nav.Link>
-					</Nav.Item>
-					{/* TEMP */}
-					{/* <Nav.Item onClick={() => this.tabclick('Modal')}>
-						<Nav.Link eventKey="Modal">Modal</Nav.Link>
 					</Nav.Item> */}
-					{/* TEMP */}
+					
 				</Nav>
 				<AboutMe display={this.state.showaboutme} />
 				<Portfolio display={this.state.showportfolio}/>
 				<Resume display={this.state.showresume}/>
-				{/* <Links/> */}
-				{/* TEMP */}
-				{/* <Modal display={this.state.showmodal}/> */}
-
 			</div>
 		)
 	}

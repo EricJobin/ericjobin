@@ -1,13 +1,7 @@
 import React, { Component } from "react";
-// import Col from 'react-bootstrap/Col';
-// import Card from 'react-bootstrap/Card';
-
-import {Button, Modal, Card, Col} from 'react-bootstrap';
+import {Modal, Card, Col} from 'react-bootstrap';
 import "./cardstyle.css";
 
-// const styles = {
-
-// };
 
 class PortfolioCard extends Component {
     state = {
@@ -25,8 +19,7 @@ class PortfolioCard extends Component {
     render() {
     
         return (
-			// console.log(this.props),
-			
+					
 			<div className="box">
 
 				<Col xs={12} sm={6} lg={4}>
@@ -48,10 +41,7 @@ class PortfolioCard extends Component {
 						{this.props.blurb}
 					</Modal.Body>
 					<Modal.Footer>
-						{/* <Button onClick={this.close}>Close</Button> */}
-						{/* <Button style={ { display: this.props.display ? '' : 'none' } }>Vist Repo</Button> */}
-						{/* <Button style={ { display: this.props.display ? '' : 'none' } }>Vist Project</Button> */}
-
+					
 						<a 
 							target="_blank"
 							style={ { display: this.props.displayLink} }

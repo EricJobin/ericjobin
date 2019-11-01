@@ -1,17 +1,9 @@
 import React, { Component } from "react";
 import PortfolioCard from "./PortfolioCard"
 
-// import Jumbotron from 'react-bootstrap/Jumbotron'
-
 //Bootstrap Components
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
-
-//Assets
-// import StayIn from "../Assets/stayIn640x480.jpg";
 
 //Data
 import cards from "../portfolioData.json"
@@ -19,39 +11,8 @@ import cards from "../portfolioData.json"
 
 const styles = {
 	backdrop: {
-		// backgroundColor: "green",
-		// minHeight: "94vh",
-		paddingTop: "3%",
-		// margin: "0",
-		  
+			paddingTop: "3%", 
 	},
-	// card: {
-    //     width: "18rem",
-    //     marginBottom: "5%",
-		// float: "left",
-		// margin: "2% 5% 5% 5%",
-		// width: "100%",
-	// },
-	col: {
-		// backgroundColor: "rgba(255,255,255,.6)",
-		// padding: "0% 2%",
-		// margin: "2%",
-		// minHeight: "54vh",
-		// position:"realative",
-    },
-    row: {
-		// backgroundColor: "rgba(255,255,255,.6)",
-		// padding: "0",
-		// margin: "0",
-		// width:"100%"
-		// minHeight: "54vh",
-		// position:"realative",
-	},
-	container: {
-		// padding: "0",
-		// margin: "0",
-		// width:"100%"
-	}
 };
 
 class Portfolio extends Component {
@@ -62,8 +23,8 @@ class Portfolio extends Component {
 			<div style={ { display: this.props.display ? '' : 'none' } }>
 
 				<div style = {styles.backdrop}>
-                    <Container style={styles.container}>
-                        <Row style={styles.row}>
+                    <Container>
+                        <Row>
 
                             {cards.map(
                                 (cards, i) => (<PortfolioCard 
