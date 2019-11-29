@@ -44,7 +44,7 @@
         "projectLink": "https://ericjobin.github.io/TriviaGame/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/TriviaGame",
-        "brief": "A little description",
+        "brief": "Trivia game using Bootstrap & JavaScript",
         "end":""
     },
     {
@@ -56,7 +56,7 @@
         "projectLink": "https://ericjobin.github.io/Word-Guess-Game/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/Word-Guess-Game",
-        "brief": "A little description",
+        "brief": "Hangman style built in JavaScript",
         "end":""
     },
     {
@@ -68,7 +68,7 @@
         "projectLink": "",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin",
-        "brief": "A little description",
+        "brief": "View my GitHub",
         "end":""
     }
 ]

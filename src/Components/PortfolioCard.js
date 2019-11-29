@@ -26,9 +26,9 @@ class PortfolioCard extends Component {
 					<Card id={this.props.id} onClick={this.open} className="portCard">
 						<Card.Img variant="top" src={this.props.image} />
 						<Card.Body>
-							<h3>{this.props.title}</h3>
+							<h5>{this.props.title}</h5>
 							<p>{this.props.brief}</p>
-							<p className="tinytext">Click for more Info!</p>
+							{/* <p className="tinytext">Click for more Info!</p> */}
 						</Card.Body>
 					</Card>
 				</Col>
