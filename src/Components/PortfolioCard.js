@@ -22,11 +22,13 @@ class PortfolioCard extends Component {
 					
 			<div className="box">
 
-				<Col xs={12} sm={6} lg={4}>
+				<Col xs={12} sm={6} lg={4} className="colheight">
 					<Card id={this.props.id} onClick={this.open} className="portCard">
 						<Card.Img variant="top" src={this.props.image} />
 						<Card.Body>
 							<h3>{this.props.title}</h3>
+							<p>{this.props.brief}</p>
+							<p className="tinytext">Click for more Info!</p>
 						</Card.Body>
 					</Card>
 				</Col>

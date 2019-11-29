@@ -8,6 +8,7 @@
         "projectLink": "https://limitless-ocean-73138.herokuapp.com",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/HomeChef",
+        "brief": "StayIn matches users with personal chefs. Built with Bootstrap, JavaScript and MySQL",
         "end":""
     },
     {
@@ -19,6 +20,7 @@
         "projectLink": "https://ericjobin.github.io/Emergency-Recipe/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/Emergency-Recipe",
+        "brief": "Find Recipes Fast! Uses APIs to find recipes and nutritional data. Built with Bootstrap, JavaScript and jQuery",
         "end":""
     },
     {
@@ -30,6 +32,7 @@
         "projectLink": "https://ericjobin.github.io/Train-Schedule/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/Train-Schedule",
+        "brief": "Displays train ETAs in real time. Built using Firebase and MomentJS library",
         "end":""
     },
     {
@@ -41,6 +44,7 @@
         "projectLink": "https://ericjobin.github.io/TriviaGame/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/TriviaGame",
+        "brief": "A little description",
         "end":""
     },
     {
@@ -52,6 +56,7 @@
         "projectLink": "https://ericjobin.github.io/Word-Guess-Game/",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin/Word-Guess-Game",
+        "brief": "A little description",
         "end":""
     },
     {
@@ -63,6 +68,7 @@
         "projectLink": "",
         "displayRepo": "",
         "repoLink": "https://github.com/EricJobin",
+        "brief": "A little description",
         "end":""
     }
 ]

@@ -2,6 +2,7 @@
 	"name": "ericjobin",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "http://ericjobin.github.io/ericjobin",
 	"dependencies": {
 		"bootstrap": "^4.3.1",
 		"gh-pages": "^2.1.1",
